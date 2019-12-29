@@ -1,0 +1,7 @@
+Reason for using mongodb not mysql:-
+
+In MongoDB, data is stored in JSON-like documents that can have varied structures and this improves query speed.
+And also storing data in JSON form is really important because most of the data which are sent to and from servers are sent in JSON form.
+In MongoDB, documents are able to have their own unique structure because mongofb is nosql which measn that there is limited constrains.
+The connection between two tables is easier because mongo doesn't use joins.
+	 For example in order to make many to many relation you can simply use arrays
